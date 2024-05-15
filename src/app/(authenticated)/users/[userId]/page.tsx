@@ -1,11 +1,14 @@
-import { getUsersById } from "../services/get-users-by-id";
+import { getUserById } from "../services/get-users-by-id";
 
 const UserDetailsPage = async ({
     params,
 }: {
     params: { userId: string };
 }) => {
-    const user = await getUsersById(params.userId);
+    console.log('teste');
+    console.log(params);
+    const user = await getUserById(params.userId);
+    console.log(user);
 
     return (
         <>
