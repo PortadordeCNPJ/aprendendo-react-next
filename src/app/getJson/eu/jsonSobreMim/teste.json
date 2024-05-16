@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nome": "Guilherme",
+        "idade": 18,
+        "esta_profissao": true,
+        "detalhes_profissao": [
+            "Programador",
+            "Unioeste"
+        ],
+        "hobbies": [
+            "Programar",
+            "Correr",
+            "Ler"
+        ]
+    }
+]
