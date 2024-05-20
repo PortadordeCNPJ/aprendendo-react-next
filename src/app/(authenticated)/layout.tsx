@@ -27,6 +27,7 @@ export default function RootLayout({
             <li><Link href="/login">Logins</Link></li>
             <li><Link href="/getJson/eu">Sobre Mim</Link></li>
             <li><Link href="/useStateTeste">Usestat</Link></li>
+            <li><Link href="/useEffectTeste">Use Effect</Link></li>
           </ul>
         </nav>
         <hr />
