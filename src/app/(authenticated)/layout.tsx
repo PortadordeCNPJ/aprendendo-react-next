@@ -29,6 +29,7 @@ export default function RootLayout({
             <li><Link href="/useStateTeste">Usestat</Link></li>
             <li><Link href="/useEffectTeste">Use Effect</Link></li>
             <li><Link href="/useRefTeste">Use Ref</Link></li>
+            <li><Link href="/useCallback">Use Callback</Link></li>
           </ul>
         </nav>
         <hr />
