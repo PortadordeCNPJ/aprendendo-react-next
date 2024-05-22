@@ -3,7 +3,7 @@ import { SetStateAction, useState, useEffect } from "react";
 
 const UseEffectTeste = () => {
     const [items, setItems] = useState([]);
-    const [resourceType, setResourceType] = useState("post");
+    const [resourceType, setResourceType] = useState("posts");
 
     //Sempre que for usar o useEffect, tem que ser passado uma lista para ele ou ele vai atualizar a página sempre que ele mudar
     //Quando é passado uma lista, ele só vai atualizar quando um item desta lista mudar
@@ -46,7 +46,7 @@ const UseEffectTeste = () => {
             </div>
             <div>
                 {items.map((item) => (
-                <p>{item.id}</p>
+                <p>{item.id}{item.title}</p>
             ))}
             </div>
         </div >
