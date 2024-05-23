@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ProximoeAnterior from "./proximoEanterior";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,8 @@ export default function RootLayout({
             <li><Link href="/useCallback">Use Callback</Link></li>
           </ul>
         </nav>
+        <br />
+        <ProximoeAnterior />
         <hr />
         {children}
       </body>

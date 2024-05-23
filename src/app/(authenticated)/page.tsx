@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Titulo from "./Titulo";
 import Galery from "./Galery";
+import ProximoeAnterior from "./proximoEanterior";
 
 export default function Home() {
   return (
