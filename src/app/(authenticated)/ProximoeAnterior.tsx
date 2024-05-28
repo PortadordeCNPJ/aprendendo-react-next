@@ -1,20 +1,19 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const ProximoeAnterior = () => {
-    const [pages, setPages] = useState([]);
-    const arrayPages = ["/", "/users", "/login", "/getJson/eu", "/useStateTeste", "/useEffectTeste", "/useRefTeste", "/useCallback"];
+    const [pages, setPages] = useState(['/', '/users', '/login', '/getJson/eu', '/useStateTeste', '/useEffectTeste', '/useRefTeste', '/useCallback']);
+    const arrayPages = 
 
-    useEffect = (() => { 
-        const MudarPagina = () => {
+    useEffect (() => {
+        const Pages = (pages);
+    },[pages]
+);
 
-        }
-    }); 
-
-    
     return (
         <>
             <div>
+                {arrayPages[0]}
                 <button>Next</button>
                 <br />
                 <button>Preview</button>

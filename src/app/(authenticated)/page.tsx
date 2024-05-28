@@ -1,7 +1,19 @@
 import Image from "next/image";
 import Titulo from "./Titulo";
 import Galery from "./Galery";
-import ProximoeAnterior from "./proximoEanterior";
+import { deflateSync } from "zlib";
+
+const PagesEnum = () => {
+  const pagesEnum = {
+    INICIO: 'inicio',
+    GALERY: 'galery',
+    USEEFFECTTESTE: 'useEffectTeste',
+    USESTATETESTE: 'useStateTeste',
+  }
+
+  return {pagesEnum};
+}
+export {PagesEnum};
 
 export default function Home() {
   return (
